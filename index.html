@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Pertama</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="download.jpg">
+    <!-- icon -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <!-- icon end -->
+    <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Strike&display=swap" rel="stylesheet">
+    <!-- font end -->
+
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar">
+        <a href="" class="logo">JMK<span>(Jajanan Murah Kekinian)</span>.</a>
+
+        <div class="nav">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <div class="navx">
+            <a href="#contact" id="search"><i data-feather='search'></i></a>
+            <a href="#menu" id="shopcart"><i data-feather='shopping-cart'></i></a>
+            <a id="ham"><i data-feather='menu'></i></a>
+        </div>
+    </nav>
+    <!-- nav end -->
+
+    <!-- landing page -->
+    <section class="hero" id="home">
+        <main class="content">
+            <h1>Selamat Datang Di Website JMK<span2>(Jajanan Murah Kekinian)</span2>.</h1>
+            <p>Silahkan Beli Jajanan Kami,Jajanan Ini Akan Tersedia Di Lokasi Saat Praktik PKK Kelas XI RPL Yang Akan diselenggarakan Tanggal 17 Oktober 2024 Di Lapang Sekolah SMK PASUNDAN MAJALAYA.</p>
+            <a class="cta">Terseia Tanggal 17 Oktober</a>
+        </main>
+    </section>
+    <!-- landing end -->
+
+    <!-- About -->
+    <section id="about" class="about">
+        <h2><span>Tentang</span>Kami</h2>
+        <div class="row">
+            <div class="about-img">
+                <img src="media/anggota.png" alt="" width="40%">
+            </div> 
+            <div class="content">
+                <h3>Kenapa Harus Membeli Dagangan Kami?</h3>
+                <p>Karena Dagangan Kami Memiliki Harga Terjangkau Dan Murah Serta Rasa dan Kualitas Yang Tidak Kalah Dengan Dagangan Lainnya.
+                </p>
+                
+            </div>
+        </div>
+    </section>
+    <!-- About end -->
+
+    <!-- menu -->
+    <section id="menu" class="menu">
+        <h2><span>Daftar</span> Menu</h2>
+        <p>Berbagai Makanan dan Minuman Yang Tersedia Dan Bisa Kalian beli Di Stand Kami</p>
+
+        <div class="row">
+            <div class="menu-card">
+                <img src="media/Ceker.jpg" alt="" width="160px" height="160px">
+                <h3 class="tittle-menu">Bakso Ceker Mercon</h3>
+                <p class="tittle-price">Rp 5.000-</p>
+            </div>
+            <div class="menu-card" id="nugget">
+                <img src="media/nugget.jpg" alt="" width="160px" height="160px">
+                <h3 class="tittle-menu">Banana Nugget</h3>
+                <p class="tittle-price">Rp 4.000-</p>
+            </div>
+            <div class="menu-card" id="soda">
+                <img src="media/soda.jpg" alt="" width="160px" height="160px">
+                <h3 class="tittle-menu">Es Teh Soda Lemon</h3>
+                <p class="tittle-price">Rp 3.000-</p>
+            </div>
+        </div>
+    </section>
+    <!-- menuu end -->
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+        <h2><span>Hubungi</span> Kami</h2>
+        <p>Hubungi Kami Jika Ada Pertanyaan Mengenai Makanan Atau Tentang Stand Dan Jualan Kami</p>
+        <div class="row">
+
+            <form action="">
+                <div class="input-grup">
+                    <i data-feather="user"></i>
+                    <input type="text" placeholder="Nama">
+                </div>
+                <div class="input-grup">
+                    <i data-feather="home"></i>
+                    <input type="text" placeholder="Kelas">
+                </div>
+                <div class="input-grup">
+                    <i data-feather="message-square"></i>
+                    <input type="text" placeholder="Pesan">
+                </div>
+                <button class="btn" type="submit">Kirim</button>
+            </form>
+        </div>
+
+    </section>
+
+
+
+    <!-- Contact end -->
+
+
+    <!-- footer -->
+    <footer>
+        <div class="social">
+            <a href=""><i data-feather="instagram"></i></a>
+            <a href=""><i data-feather="twitter"></i></a>
+            <a href=""><i data-feather="facebook"></i></a>
+        </div>
+
+        <div class="link">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <div class="credit">
+            <p>Created by <a href="">Didiksaepudin</a>. | &copy; 2024.</p>
+        </div>
+    </footer>
+    <!-- footer end -->
+
+    <!-- feather -->
+    <script>
+        feather.replace();
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
